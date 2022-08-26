@@ -2,8 +2,9 @@ import { MoralisProvider } from 'react-moralis'
 import '../styles/globals.css'
 import Header from '../components/Header'
 
-const APP_ID = process.env.MORALIS_APPLICATION_ID
-const SERVER_URL = process.env.MORALIS_DAPP_URL
+const APP_ID = process.env.NEXT_PUBLIC_moralisAppId
+const SERVER_URL = process.env.NEXT_PUBLIC_moralisDappURL
+console.log(APP_ID)
 
 function MyApp({ Component, pageProps }) {
     return (

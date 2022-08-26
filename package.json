@@ -6,9 +6,12 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain g8vl1h4pnptm.usemoralis.com --frpcPath ./frp/frpc"
     },
     "dependencies": {
+        "dotenv": "^16.0.1",
+        "ethers": "^5.7.0",
         "moralis": "1.11.0",
         "next": "^12.2.5",
         "react": "^18.2.0",

@@ -3,12 +3,16 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        // Will index events off-chain and read from our database
+        // Setup a server and add to a DB query (Moralis is centralized / GraphQL is decentralized)
+
+        <div>
             <Head>
                 <title>NFT Marketplace</title>
                 <meta name="NFT Marketplace" content="Fully decentralized NFT marketplace" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
             <h1>Home Page.</h1>
         </div>
     )

@@ -93,7 +93,7 @@ async function main() {
     let listingCancelledOptions = {
         chainId: moralisChainId,
         sync_historical: true,
-        topic: 'ListingCancelled(address,address,uint256,uint256)',
+        topic: 'ListingCancelled(address,address,uint256)',
         address: nftMarketplaceAddress,
         abi: {
             anonymous: false,
